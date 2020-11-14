@@ -22,7 +22,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 return [
     'whtools' => [
         'name' => 'WHTools',
-        'label' => 'whtool::seat.name',
+        'label' => 'whtools::seat.name',
         'icon' => 'fa fa-circle',
         'route_segment' => 'whtool',
         'permission' => ['whtools.stockview', 'whtools.taxview', 'whtools.certview'],
