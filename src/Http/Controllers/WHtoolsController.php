@@ -184,7 +184,7 @@ class WHtoolsController extends Controller
                     WHERE m.itemID=character_wallet_transactions.location_id) end
                 AS locationName'
             ))
-            ->select('id', 'character_id', 'transaction_id', 'date', 'type_id', 'location_id', 'unit_price', 'quantity', 'client_id', 'is_buy', 'is_personal', 'journal_ref_id')
+            ->select('character_wallet_transactions.id', 'character_id', 'transaction_id', 'date', 'type_id', 'location_id', 'unit_price', 'quantity', 'client_id', 'is_buy', 'is_personal', 'journal_ref_id')
             ->whereIn('type_id', $bluelootIDs)
             ->where('is_buy', False)
             ->join('users', 'users.id', 'character_id')
