@@ -22,7 +22,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 namespace FlyingFerret\Seat\WHTools\Http\Controllers;
 
 use Denngarr\Seat\Fitting\Http\Controllers\FittingController;
-use Denngarr\Seat\Fitting\Models\Sde\InvType;
+use Denngarr\Seat\SeatSrp\Models\Sde\InvType;
 use FlyingFerret\Seat\WHTools\Models\Stocklvl;
 use FlyingFerret\Seat\WHTools\Validation\StocklvlValidation;
 use Seat\Eveapi\Models\Contracts\ContractDetail;
